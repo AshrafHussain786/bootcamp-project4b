@@ -16,11 +16,11 @@ export const Card = (props) => {
                         {/* <NavLink to="#" className="btn btn-primary">
                             Surge Link
                         </NavLink> */}
-                        <img className="surge" src={GitHub} alt={GitHub} width="100" height="60" useMap="#workmap" /> 
-                            Surge Link                        
+                        <img className="surge" src={GitHub} alt={GitHub} width="100" height="60" usemap="#workmap"/>
                             <map name="workmap">
-                                <area shape="default" href={props.surge} />
+                                <area shape="default" href={props.repo} />
                             </map>
+                        <a href={props.surge}> Surge Link </a>
                     </div>
                 </div>
             </div>

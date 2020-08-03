@@ -15,13 +15,12 @@ export const Projects = () => {
                         {
                             Sdata.map((val, ind) => {
                                 console.log("val.surge ", val.surge)
-                                console.log("ind ", ind)
-                                console.log("object ", Object)                                
+                                console.log("ind ", ind)                                                              
                                 return <Card key={val.id}                                
                                 imgsrc={val.imgsrc} 
                                 title={val.title}                                
                                 surge={val.surge}
-                                // repo={val.repo}                                 
+                                repo={val.repo}                                 
                                 />
                             })
                         }
