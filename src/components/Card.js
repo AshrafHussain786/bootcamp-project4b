@@ -20,7 +20,7 @@ export const Card = (props) => {
                             <map name="workmap">
                                 <area shape="default" href={props.repo} />
                             </map>
-                        <a href={props.surge}> Surge Link </a>
+                        <a href={props.surge}>Surge Link</a>
                     </div>
                 </div>
             </div>
