@@ -11,12 +11,14 @@ export const Card = (props) => {
                         <h5 className="card-title font-weight-bold">{props.title}</h5>
                         <p className="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content.
-                        </p>                        
-                        <img className="surge" src={GitHub} alt={GitHub} width="100" height="60" usemap="#workmap"/>
+                        </p> 
+                        <div className="surge">                     
+                        <img src={GitHub} alt={GitHub} width="100" height="60" usemap="#workmap"/>
                             <map name="workmap">
                                 <area shape="default" href={props.repo} />
                             </map>
                         <a href={props.surge}>Surge Link</a>
+                        </div>  
                     </div>
                 </div>
             </div>
