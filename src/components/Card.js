@@ -15,7 +15,7 @@ export const Card = (props) => {
                         <div className="surge">                     
                         <img src={GitHub} alt={GitHub} width="100" height="60" usemap="#workmap"/>
                             <map name="workmap">
-                                <area shape="default" href={props.repo} />
+                                <area shape="default" href={props.repo} alt="card" />
                             </map>
                         <a href={props.surge}>Surge Link</a>
                         </div>  
