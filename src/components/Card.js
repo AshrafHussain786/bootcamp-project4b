@@ -12,13 +12,8 @@ export const Card = (props) => {
                         <p className="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p> 
-                        <div className="surge">                     
-                        <img src={GitHub} alt={GitHub} width="100" height="60" usemap="#workmap"/>
-                            <map name="workmap">
-                                <area shape="default" href={props.repo} alt="card" />
-                            </map>
-                        <a href={props.surge}>Surge Link</a>
-                        </div>  
+                        <a href={props.repo} target="_blank">GitHub Link</a>    
+                        <a href={props.surge} target="_blank">Surge Link</a>                        
                     </div>
                 </div>
             </div>
