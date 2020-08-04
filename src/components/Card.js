@@ -1,5 +1,5 @@
 import React from 'react';
-import GitHub from '../images/GitHub.png';
+
 
 export const Card = (props) => {
     return (
